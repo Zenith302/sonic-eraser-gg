@@ -27,9 +27,9 @@ vdp_init:
 set_palette:
     push    bc
     xor     a                   ; clear the accumulator
-    out     (vdp_control), a    ; select the first byte of address to write to color ram
+    out     (vdp_port_ctrl), a    ; select the first byte of address to write to color ram
     ld      a, &C0              ; load the second byte of said address
-    out     (vdp_control), a    ; select that (c'mon, context clues.)
+    out     (vdp_port_ctrl), a    ; select that (c'mon, context clues.)
 
     ld      b, 64               ; toss the number of bytes to write into b
     ld      c, vdp_port_data    ; put the destination of said bytes into c

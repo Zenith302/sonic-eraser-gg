@@ -18,7 +18,7 @@ pal_menu:               ; ntsc support coming soon
     db      &55, &05
     db      &33, &03
 
-    db      &F0, &0F    ; palette 1
+    db      &0F, &0F    ; palette 1
     db      &00, &00
     db      &0C, &00
     db      &19, &00
@@ -53,7 +53,7 @@ pal_intro:
     db      &55, &05
     db      &33, &03
 
-    db      &F0, &0F    ; palette 1
+    db      &0F, &0F    ; palette 1
     db      &00, &00
     db      &00, &00
     db      &00, &00
@@ -88,7 +88,7 @@ pal_ingame:
     db      &55, &05
     db      &33, &03
 
-    db      &F0, &0F    ; palette 1
+    db      &0F, &0F    ; palette 1
     db      &00, &00
     db      &3F, &00
     db      &29, &00
