@@ -1,7 +1,7 @@
-all: game.gg
+all: eraser.gg
 
 game.gg: main.asm palettes.asm vdp.asm
-	vasm -Fbin -o game.gg intro_template.asm
+	vasm -Fbin -o eraser.gg main.asm
 
 clean:
-	rm -f game.gg
+	rm -f eraser.gg
