@@ -1,6 +1,6 @@
 ; define the base palettes weeheeeee
 
-pal_menu:              ; ntsc support coming soon
+pal_menu:               ; ntsc support coming soon
     db      &AC, &07    ; palette 0
     db      &9B, &06
     db      &79, &04

@@ -66,4 +66,4 @@ vdp_init_data_end:
 
                                 ; what the fuck (seriously)
 
-    include "palettes.asm"
+   include "palettes.asm"  
